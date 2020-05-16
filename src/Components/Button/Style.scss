@@ -1,0 +1,10 @@
+button, .button {
+  padding: 8px 32px;
+  background-color: #E81123;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  &:focus {
+    outline: none;
+  }
+}

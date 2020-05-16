@@ -1,0 +1,12 @@
+.contancts {
+  display: flex;
+  flex-direction: column;
+  & a,
+  & img {
+    width: 36px;
+  }
+
+  & a {
+    margin-bottom: 24px;
+  }
+}

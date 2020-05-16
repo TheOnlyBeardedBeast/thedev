@@ -1,0 +1,44 @@
+.card {
+  padding: 20px;
+  border-radius: 20px;
+  width: 480px;
+  height: 256px;
+  box-shadow: inset 0 0 15px rgba(55, 84, 170, 0),
+    inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(55, 84, 170, 0.15),
+    -7px -7px 20px white, inset 0px 0px 4px rgba(255, 255, 255, 0.2);
+  position: relative;
+  margin-bottom: 64px;
+  font-family: "Open Sans", sans-serif;
+
+  @media (min-width: 1560px) {
+    width: 30%;
+  }
+
+  @media (max-width: 1560px) {
+    width: 45%;
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+
+  &-title {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  & > p {
+    max-width: 100%;
+  }
+
+  & > button, & > .button {
+    position: absolute;
+    padding: 8px 32px;
+    background-color: #E81123;
+    color: #fff;
+    bottom: 20px;
+    left: 50%;
+    border-radius: 32px;
+    transform: translateX(-50%);
+  }
+}

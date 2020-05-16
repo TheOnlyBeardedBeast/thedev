@@ -1,0 +1,14 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 128px;
+
+  @media (max-width: 1024px) {
+    padding-right: 64px;
+  }
+
+  @media (max-width: 768px) {
+    padding-right: 0;
+  }
+}

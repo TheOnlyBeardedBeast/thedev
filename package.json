@@ -1,0 +1,22 @@
+{
+  "name": "thedev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "preact-svg-loader": "^0.2.1",
+    "sass": "^1.26.3",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "es7-object-polyfill": "^1.0.1",
+    "intersection-observer": "^0.10.0",
+    "preact": "^10.3.1",
+    "scroll-to-element": "^2.0.3"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}

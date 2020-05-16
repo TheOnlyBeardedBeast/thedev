@@ -1,0 +1,4 @@
+.now
+.cache
+dist
+node_modules

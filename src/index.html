@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The DEV</title>
+  <meta name="Description" content="A developers personal website.">
+  <meta name="Keywords" content="developer,dev,programming">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thedev.sk">
+  <meta property="og:title" content="The DEV">
+  <meta property="og:description" content="A developers personal website.">
+  <meta property="og:image" content="./Assets/Images/intro_bg.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://thedev.sk">
+  <meta property="twitter:title" content="The DEV">
+  <meta property="twitter:description" content="A developers personal website.">
+  <meta property="twitter:image" content="./Assets/Images/intro_bg.jpg">
+  <style>
+    body {
+      background-color: #000;
+    }
+  </style>
+  <!-- <link rel="stylesheet" type="text/css" href="normalize.css"> -->
+</head>
+
+<body>
+  <div id="root">
+    <section class="initial dark" id="introduction">
+      <h1 class="initial-title"><a href="/">The DEV</a></h1>
+      <nav>
+        <ul>
+          <li tabindex="0"><a href="#about">About</a></li>
+          <li tabindex="0"><a href="#experience">Experience</a></li>
+          <li tabindex="0"><a href="#showcase">Showcase</a></li>
+        </ul>
+      </nav>
+      <p class="initial-paragraph"><span>Hi, I am</span> Mark<br><span>Web &amp; Mobile developer,</span><br><span>based
+          in Slovakia.</span></p>
+      <div class="scroll-me"></div>
+    </section>
+    <section class="about light" id="about">
+      <h1 class="about-title">About</h1>
+      <p class="about-paragraph">I am a Slovakian web and mobile developer who is constantly seeking more knowledge.
+        Becoming a developer has been a dream of mine since primary school. A dream that has come true over the years.
+        Because of my interest in technology I continued my studies until I got a Master´s degree in Applied
+        Informatics, but as we all know a developer´s studies never end. Programming is not just a job to me. It is my
+        hobby and something I am passionate about. Throughout the years I have had the pleasure of working with several
+        languages and development paths. Nowadays I mostly work with TypeScript and C#. I enjoy working full stack but
+        what I am the most interested in is frontend development.</p>
+      <p><strong>Technologies I work with</strong></p>
+      <p>TypeScript | JavaScript, React, SCSS, C#, .NET Core, TypeGraphql, GraphQL, Git, Docker, MSSQL, MongoDB</p>
+    </section>
+    <section class="dark" id="experience">
+      <h1>Experience &amp; studies</h1>
+      <ul class="timeline">
+        <li class="timeline-year"><span>2016</span>
+          <ul>
+            <li class="timeline-event"><span class="timeline-event-date">February</span>
+              <p class="timeline-event-content">During the second year of my studies at university I got my first dev
+                job as a fronted developer which lasted until the May of 2018. It was during this time that the scope of
+                my carreer changed to fullstack developer.</p>
+            </li>
+            <li class="timeline-event"><span class="timeline-event-date">September - October</span>
+              <p class="timeline-event-content">At the beginning of the semester I had some free time so I applied for
+                a part time job. This job involved working on a prototype API for a mobile app. Said API was developed
+                in php (Laravel Framework)</p>
+            </li>
+          </ul>
+        </li>
+        <li class="timeline-year"><span>2017</span>
+          <ul>
+            <li class="timeline-event"><span class="timeline-event-date">May</span>
+              <p class="timeline-event-content">I got my Bachelor's degree in Applied Informatics. My Bachelor's thesis
+                was about the creation of a Eccomerce application with Laravel on the backend and Vue.js on the
+                frontend.</p>
+            </li>
+          </ul>
+        </li>
+        <li class="timeline-year"><span>2018</span>
+          <ul>
+            <li class="timeline-event"><span class="timeline-event-date">May - June</span>
+              <p class="timeline-event-content">At the end of the academic year I applied for a fullstack internship.
+                The job entailed working on an internal employee system. I worked on this system with Symfony backend.
+              </p>
+            </li>
+            <li class="timeline-event"><span class="timeline-event-date">July</span>
+              <p class="timeline-event-content">By July I had started working as a React developer in a CN group CZ a.s.
+                part time.</p>
+            </li>
+          </ul>
+        </li>
+        <li class="timeline-year"><span>2019</span>
+          <ul>
+            <li class="timeline-event"><span class="timeline-event-date">May</span>
+              <p class="timeline-event-content">I got my master´s degree in applied informatics. My dissertation was on
+                the creation of a time tracking application in .net core which used the Azure devops API and used react
+                with typescript on the frontend. It also contained some data analysis.</p>
+            </li>
+            <li class="timeline-event"><span class="timeline-event-date">June</span>
+              <p class="timeline-event-content">After I got my master´s degree I was offered a full time frontend
+                developer position at the previously mentioned company.</p>
+            </li>
+          </ul>
+        </li>
+        <li class="timeline-year"><span>2020</span>
+          <ul>
+            <li class="timeline-event"><span class="timeline-event-date">February</span>
+              <p class="timeline-event-content">I started working on a new project in CN Group CZ a.s. My development
+                scope changed from fronted to full-stack and I was promoted to project leader.</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="light" id="showcase">
+      <h1 class="sub">Showcase</h1>
+      <h2>Projects</h2>
+      <div class="cards">
+        <div class="card"><span class="card-title">Scrumma frontend</span>
+          <p class="secondary">A free open-source UI implementation for a real time scrum pointing application. React,
+            Typescript</p><a href="https://github.com/TheOnlyBeardedBeast/ScrummaSPA" target="_blank"
+            rel="noreferrer noopener" class="button " tabindex="0">More</a>
+        </div>
+        <div class="card"><span class="card-title">Scrumma backend</span>
+          <p class="secondary">A free open-source backend for a real time scrum application. C#, .NET Core, Signal-R</p>
+          <a href="https://github.com/TheOnlyBeardedBeast/ScrummaService" target="_blank" rel="noreferrer noopener"
+            class="button " tabindex="0">More</a>
+        </div>
+        <div class="card"><span class="card-title">Punch coach</span>
+          <p class="secondary">An android application for enhanced shadow boxing training. ReactNative, JavasScript</p>
+          <a href="https://play.google.com/store/apps/details?id=com.boxingtrainer&amp;hl=en" target="_blank"
+            rel="noreferrer noopener" class="button " tabindex="0">More</a>
+        </div>
+        <div class="card"><span class="card-title">TheDEV.sk</span>
+          <p class="secondary">The source of this website. Typescript, Parcel, Preact</p><a
+            href="https://github.com/TheOnlyBeardedBeast/thedev" target="_blank" rel="noreferrer noopener"
+            class="button " tabindex="0">More</a>
+        </div>
+      </div>
+      <h2>Articles</h2>
+      <div class="cards">
+        <div class="card"><span class="card-title">Using Google drive in a C# application</span>
+          <p class="secondary">An article about Google drive implementation in a .NET Core app.</p><a
+            href="https://dev.to/theonlybeardedbeast/using-google-drive-in-a-c-application-38ag" target="_blank"
+            rel="noreferrer noopener" class="button " tabindex="0">More</a>
+        </div>
+        <div class="card"><span class="card-title">Dockerize a React app with NGINX</span>
+          <p class="secondary">Using Nginx and React for multi environment setup.</p><a
+            href="https://dev.to/theonlybeardedbeast/dockerize-a-react-app-with-nginx-for-multiple-environments-db2"
+            target="_blank" rel="noreferrer noopener" class="button " tabindex="0">More</a>
+        </div>
+        <div class="card"><span class="card-title">Comparing URLs in Javascrip</span>
+          <p class="secondary">Comparing URLs in javascript by multiple criterias.</p><a
+            href="https://dev.to/theonlybeardedbeast/comparing-urls-in-javascript-2iha" target="_blank"
+            rel="noreferrer noopener" class="button " tabindex="0">More</a>
+        </div>
+        <div class="card"><span class="card-title">React hooks, what you should not to do</span>
+          <p class="secondary">A hacky way to use React hooks conditionally.</p><a
+            href="https://dev.to/theonlybeardedbeast/conditional-hooks-maybe-18fk" target="_blank"
+            rel="noreferrer noopener" class="button " tabindex="0">More</a>
+        </div>
+      </div>
+      <div class="footer">
+        <p>© 2020 TheDEV.sk</p>
+        <div class="contancts"><a href="https://www.linkedin.com/in/m%C3%A1rk-pol%C3%A1k-8b9334162/" target="_blank"
+            rel="noreferrer" name="linkedin"><svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+              <path
+                d="M 7.5 5 C 6.132813 5 5 6.132813 5 7.5 L 5 24.5 C 5 25.867188 6.132813 27 7.5 27 L 24.5 27 C 25.867188 27 27 25.867188 27 24.5 L 27 7.5 C 27 6.132813 25.867188 5 24.5 5 Z M 7.5 7 L 24.5 7 C 24.785156 7 25 7.214844 25 7.5 L 25 24.5 C 25 24.785156 24.785156 25 24.5 25 L 7.5 25 C 7.214844 25 7 24.785156 7 24.5 L 7 7.5 C 7 7.214844 7.214844 7 7.5 7 Z M 10.4375 8.71875 C 9.488281 8.71875 8.71875 9.488281 8.71875 10.4375 C 8.71875 11.386719 9.488281 12.15625 10.4375 12.15625 C 11.386719 12.15625 12.15625 11.386719 12.15625 10.4375 C 12.15625 9.488281 11.386719 8.71875 10.4375 8.71875 Z M 19.46875 13.28125 C 18.035156 13.28125 17.082031 14.066406 16.6875 14.8125 L 16.625 14.8125 L 16.625 13.5 L 13.8125 13.5 L 13.8125 23 L 16.75 23 L 16.75 18.3125 C 16.75 17.074219 16.996094 15.875 18.53125 15.875 C 20.042969 15.875 20.0625 17.273438 20.0625 18.375 L 20.0625 23 L 23 23 L 23 17.78125 C 23 15.226563 22.457031 13.28125 19.46875 13.28125 Z M 9 13.5 L 9 23 L 11.96875 23 L 11.96875 13.5 Z">
+              </path>
+            </svg></a><a name="outlook" href="mailto:markpolak@outlook.sk"><svg width="100%" height="100%"
+              viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+              <path
+                d="M43.618,29.664L28.125,29.688L28.125,43.75L24.805,43.75L24.658,43.701L7.471,39.893L6.25,39.6L6.25,10.4L7.471,10.107L24.658,6.299L24.805,6.25L28.125,6.25L28.125,10.938L43.75,10.938L43.618,29.664ZM25,9.424L25,40.576L9.375,37.158L9.375,12.842L25,9.424ZM16.553,17.188C14.868,17.188 13.477,17.914 12.451,19.385C11.426,20.862 10.938,22.809 10.938,25.195C10.938,27.454 11.444,29.303 12.451,30.713C13.458,32.123 14.758,32.813 16.357,32.813C17.999,32.813 19.342,32.068 20.361,30.615C21.381,29.163 21.875,27.277 21.875,24.902C21.875,22.589 21.393,20.697 20.41,19.287C19.427,17.877 18.146,17.188 16.553,17.188ZM16.455,20.313C17.163,20.313 17.706,20.746 18.115,21.582C18.524,22.418 18.75,23.59 18.75,25.098C18.75,26.544 18.536,27.655 18.115,28.467C17.694,29.279 17.126,29.688 16.406,29.688C15.71,29.688 15.131,29.254 14.697,28.418C14.264,27.582 14.063,26.44 14.063,25C14.063,23.584 14.264,22.443 14.697,21.582C15.131,20.721 15.723,20.313 16.455,20.313ZM40.625,15.869L33.838,21.533L32.91,22.266L31.885,21.582L28.125,18.896L28.125,26.563L40.649,26.563C40.649,26.564 40.651,26.566 40.654,26.568L40.656,26.568C40.653,26.566 40.651,26.564 40.649,26.563L40.625,15.869ZM28.125,14.063L37.891,14.063L32.764,18.311L28.125,15.039L28.125,14.063Z"
+                style="fill: white;"></path>
+            </svg></a></div>
+      </div>
+    </section>
+    <div class="indicator">
+      <div class="contancts"><a href="https://www.linkedin.com/in/m%C3%A1rk-pol%C3%A1k-8b9334162/" target="_blank"
+          rel="noreferrer" name="linkedin"><svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+            <path
+              d="M 7.5 5 C 6.132813 5 5 6.132813 5 7.5 L 5 24.5 C 5 25.867188 6.132813 27 7.5 27 L 24.5 27 C 25.867188 27 27 25.867188 27 24.5 L 27 7.5 C 27 6.132813 25.867188 5 24.5 5 Z M 7.5 7 L 24.5 7 C 24.785156 7 25 7.214844 25 7.5 L 25 24.5 C 25 24.785156 24.785156 25 24.5 25 L 7.5 25 C 7.214844 25 7 24.785156 7 24.5 L 7 7.5 C 7 7.214844 7.214844 7 7.5 7 Z M 10.4375 8.71875 C 9.488281 8.71875 8.71875 9.488281 8.71875 10.4375 C 8.71875 11.386719 9.488281 12.15625 10.4375 12.15625 C 11.386719 12.15625 12.15625 11.386719 12.15625 10.4375 C 12.15625 9.488281 11.386719 8.71875 10.4375 8.71875 Z M 19.46875 13.28125 C 18.035156 13.28125 17.082031 14.066406 16.6875 14.8125 L 16.625 14.8125 L 16.625 13.5 L 13.8125 13.5 L 13.8125 23 L 16.75 23 L 16.75 18.3125 C 16.75 17.074219 16.996094 15.875 18.53125 15.875 C 20.042969 15.875 20.0625 17.273438 20.0625 18.375 L 20.0625 23 L 23 23 L 23 17.78125 C 23 15.226563 22.457031 13.28125 19.46875 13.28125 Z M 9 13.5 L 9 23 L 11.96875 23 L 11.96875 13.5 Z">
+            </path>
+          </svg></a><a name="outlook" href="mailto:markpolak@outlook.sk"><svg width="100%" height="100%"
+            viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+            <path
+              d="M43.618,29.664L28.125,29.688L28.125,43.75L24.805,43.75L24.658,43.701L7.471,39.893L6.25,39.6L6.25,10.4L7.471,10.107L24.658,6.299L24.805,6.25L28.125,6.25L28.125,10.938L43.75,10.938L43.618,29.664ZM25,9.424L25,40.576L9.375,37.158L9.375,12.842L25,9.424ZM16.553,17.188C14.868,17.188 13.477,17.914 12.451,19.385C11.426,20.862 10.938,22.809 10.938,25.195C10.938,27.454 11.444,29.303 12.451,30.713C13.458,32.123 14.758,32.813 16.357,32.813C17.999,32.813 19.342,32.068 20.361,30.615C21.381,29.163 21.875,27.277 21.875,24.902C21.875,22.589 21.393,20.697 20.41,19.287C19.427,17.877 18.146,17.188 16.553,17.188ZM16.455,20.313C17.163,20.313 17.706,20.746 18.115,21.582C18.524,22.418 18.75,23.59 18.75,25.098C18.75,26.544 18.536,27.655 18.115,28.467C17.694,29.279 17.126,29.688 16.406,29.688C15.71,29.688 15.131,29.254 14.697,28.418C14.264,27.582 14.063,26.44 14.063,25C14.063,23.584 14.264,22.443 14.697,21.582C15.131,20.721 15.723,20.313 16.455,20.313ZM40.625,15.869L33.838,21.533L32.91,22.266L31.885,21.582L28.125,18.896L28.125,26.563L40.649,26.563C40.649,26.564 40.651,26.566 40.654,26.568L40.656,26.568C40.653,26.566 40.651,26.564 40.649,26.563L40.625,15.869ZM28.125,14.063L37.891,14.063L32.764,18.311L28.125,15.039L28.125,14.063Z"
+              style="fill: white;"></path>
+          </svg></a></div>
+      <div class="indicator-dots bottom"><span tabindex="0" class="indicator-dot"></span><span tabindex="0"
+          class="indicator-dot"></span><span tabindex="0" class="indicator-dot"></span><span tabindex="0"
+          class="indicator-dot active"></span></div><span class="indicator-number">04 | 04</span>
+    </div>
+  </div>
+  <script src="./index.tsx"></script>
+</body>
+
+</html>

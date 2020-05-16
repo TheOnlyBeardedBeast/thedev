@@ -1,0 +1,72 @@
+.scroll-me {
+  width: 40px;
+  height: 60px;
+  border-radius: 20px;
+  border: 3px solid red;
+  margin: 0 auto;
+  animation: shake 1.2s linear infinite;
+  cursor: pointer;
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+  &:before {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 10px;
+    left: calc(50% - 5px);
+    background: red;
+    animation: mouse-ball 1.2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  }
+}
+
+@keyframes mouse-ball {
+  0%,
+  65%,
+  100% {
+    opacity: 0;
+  }
+  10%,
+  40% {
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(5px) scale(0.7);
+  }
+  5% {
+    transform: scale(0.7);
+  }
+  15%,
+  100% {
+    transform: scale(1);
+  }
+  45%,
+  65% {
+    transform: translateY(24px) scale(0.7);
+  }
+}
+
+@keyframes shake {
+  0% {
+    opacity: 0.75;
+  }
+  0%,
+  20% {
+    transform: rotate(0deg);
+  }
+  5% {
+    transform: rotate(-30deg);
+  }
+  15% {
+    transform: rotate(30deg);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.75;
+  }
+}

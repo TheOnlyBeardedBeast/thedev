@@ -1,0 +1,23 @@
+.footer {
+  & > p {
+    text-align: center;
+    width: 100%;
+    opacity: 0.5;
+  }
+
+  & .contancts {
+    display: flex;
+    flex-direction: row!important;
+    justify-content: center;
+    align-items: center;
+
+    & a {
+      margin: 0 10px;
+    }
+
+    & svg, & path {
+      fill: #11100f!important;
+      opacity: 0.5;
+    }
+  }
+}
